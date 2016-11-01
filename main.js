@@ -225,7 +225,7 @@ document.addEventListener("touchend", function (event) {
 	var absDeltay = Math.abs(deltay);
 
 	//防止点击事件触发该事件
-	if (absDeltax < 0.2 * documentWidth && absDeltay < 0.2 * documentWidth) {
+	if (absDeltax < 0.1 * documentWidth && absDeltay < 0.2 * documentWidth) {
 		return;
 	}
 	//x
